@@ -25,8 +25,8 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(PIR_PIN, GPIO.IN)
 
 # Telegram Bot
-BOT_TOKEN = '**************************************'
-CHAT_ID = '**********'
+BOT_TOKEN ='your bot token'
+CHAT_ID = 'chat id'
 
 # === VIDEO INFERENCE FUNCTION ===
 def process_video(video_path, model):
